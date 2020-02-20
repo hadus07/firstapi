@@ -9,7 +9,7 @@ const Person = require('../../models/Person')
 route.get('/', async (req, res) => {
   let tmp = await Person
     .find(req.query.gender ? {gender: req.query.gender.replace(req.query.gender[0], req.query.gender[0].toUpperCase())} : null)
-    .limit(req.query.limit ? req.query.limit === 'all' ?  0 : parseInt(req.query.limit) : 1)
+    .limit(req.query.limit ? parseInt(req.query.limit) : 0)
     .skip(req.query.limit && req.query.page && req.query.page !== '0'
       ? parseInt(req.query.limit)*(parseInt(req.query.page)-1)
       : null)

@@ -1,0 +1,87 @@
+.cont{
+  padding: 0px 13em;
+
+  .title{
+    margin-top: 4em;
+
+    .row1{
+      font-size: 2em;
+    }
+
+    .row2, .row3{
+      margin-top: 1.5em;
+    }
+  }
+
+  .geta, .getb, .getf{
+    margin-top: 10em;
+
+    p{
+      font-size: 2em;
+    }
+
+    div{
+      padding: 10px;
+      margin-top: 1.5em;
+      font-family: 'Consolas';
+      background-color: #1f2b1a;
+    }
+  }
+
+  .bottom{
+    margin-top: 8em;
+    margin-bottom: 8em;
+
+    p{
+      font-size: 2em;
+    }
+  }
+}
+
+.lyellow{
+  color: #ffff8a;
+}
+
+.dyellow{
+  color: #ffde08; 
+}
+
+.orange{
+  color: #ff7300;
+}
+
+.lblue{
+  color: #48faf1;
+}
+
+.blue{
+  color: #111ed1;
+}
+
+.green{
+  color: #00ff26;
+}
+
+.dpink{
+  color: #e400e8;
+}
+
+.grey{
+  color: #61656b;
+}
+
+.white{
+  color: #fff;
+}
+
+.ml10{
+  margin-left: 10px;
+}
+
+.ml20{
+  margin-left: 20px;
+}
+
+.ml30{
+  margin-left: 30px;
+}

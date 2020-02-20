@@ -19,7 +19,7 @@ const validateTodo = todo => {
 route.get('/', async (req, res) => {
   try{
     const todo = await Todo
-    .find().limit(req.query.limit ? req.query.limit === 'all' ?  0 : parseInt(req.query.limit) : 1)
+    .find().limit(req.query.limit ? parseInt(req.query.limit) : 0)
     .skip(req.query.limit && req.query.page && req.query.page !== '0'
       ? parseInt(req.query.limit)*(parseInt(req.query.page)-1)
       : null)
