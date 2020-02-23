@@ -1,3 +1,4 @@
+// Hafadiy satsialniylaga linklani tog'irlab qoying
 import React from 'react'
 import { Link } from 'react-router-dom'
 import { 
